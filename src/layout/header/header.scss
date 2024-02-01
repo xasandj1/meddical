@@ -2,3 +2,32 @@
     padding: 19px 0;
     background: #FCFEFE;
 }
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__tel {
+    display: flex;
+    align-items: center;
+}
+
+.header__txts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.header__txt {
+    color: #1F2B6C;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header__num {
+    color: #159EEC;
+    font-size: 16px;
+    font-weight: 500;
+}
