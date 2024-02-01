@@ -1,12 +1,13 @@
 import React from "react";
-import Logo  from "../../assets/img/logo.svg";
+import Logo from "../../assets/img/logo.svg";
 import { links } from "./data";
 import { HeaderButtons } from "./components/header-buttons/header-buttons";
 import { Link } from "react-router-dom";
+import "./header.scss"
 
 export const Header = () => {
   return (
-    <header>
+    <header className="header">
       <div className="container box">
         <img src={Logo} alt="" />
         <ul>
