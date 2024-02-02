@@ -5,15 +5,38 @@
 .img_sup {
   margin-bottom: 56px;
   position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover .icon_sup {
+    display: none;
+  }
+
+  &:hover .icon_sup__hover {
+    display: inline-block;
+    background-color: rgb(31, 43, 108);
+    opacity: 0.7;
+    transition: 0.4s;
+  }
 }
+
+.icon_sup__hover {
+  position: absolute;
+  top: 0px;
+  right: -0.5px;
+  display: none;
+  padding: 122px 133px;
+  // width: 300px;
+}
+
 .icon_sup {
   position: absolute;
-  width: 80px;
-  height: 80px;
-  padding: 27px 26px 26px 27px;
+  width: 70px;
+  height: 70px;
+  padding: 20px 16px 0px 22px;
   background-color: rgb(31, 43, 108);
   border-radius: 50%;
-  bottom: -40px;
+  bottom: -30px;
   right: 20px;
 }
 .item_mini_title {

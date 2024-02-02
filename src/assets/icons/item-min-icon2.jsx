@@ -1,10 +1,10 @@
 import React from "react";
 
-export const ItemMiniIcon = () => {
+export const ItemMiniIconHover = () => {
   return (
     <svg
-      width="26.619930"
-      height="26.673096"
+      width="50.619930"
+      height="50.673096"
       viewBox="0 0 26.6199 26.6731"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
