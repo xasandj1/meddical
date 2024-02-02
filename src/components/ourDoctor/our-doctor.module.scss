@@ -1,0 +1,56 @@
+.doctor_main__card {
+  text-align: center;
+}
+
+.doctor_des__main {
+  background-color: #bfd2f8;
+}
+
+.doctor_des__main p {
+  padding-top: 24px;
+  color: rgb(31, 43, 108);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.doctor_des__main h2 {
+  padding-top: 10px;
+  padding-bottom: 16px;
+  color: rgb(31, 43, 108);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 16%;
+  text-transform: uppercase;
+}
+
+.doctor_link__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  padding-bottom: 22px;
+}
+
+.doctor_card__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.doctor_card__btn {
+  background-color: rgb(31, 43, 108);
+  padding: 15px 0;
+  width: 100%;
+  height: auto;
+  color: rgb(191, 210, 248);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+
+  &:hover {
+    color: #fff;
+  }
+}
