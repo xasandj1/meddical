@@ -35,7 +35,7 @@ export const HomeContact = () => {
                         </div>
                         <div className="homecontact__card">
                             <Time />
-                            <h5 className="homecontact__title">Emergency</h5>
+                            <h5 className="homecontact__title">Emergency hhhhhh</h5>
                             <p className='homecontact__tel tx'>Mon-Sat 09:00-20:00</p>
                             <p className='homecontact__tel tx'>Sunday Emergency only</p>
                         </div>
