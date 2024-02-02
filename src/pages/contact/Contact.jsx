@@ -2,6 +2,10 @@ import React from "react";
 import style from "../contact/contact.module.scss";
 import img from "../../assets/contactImg/Map.png";
 import time_icon from "../../assets/contactImg/time.png";
+import news_card from "../../assets/contactImg/news_card.svg";
+import eye_icon from "../../assets/contactImg/eye_icon.svg";
+import heart_icon from "../../assets/contactImg/heart_icon.svg";
+
 export const Contact = () => {
   return (
     <>
@@ -92,7 +96,100 @@ export const Contact = () => {
         </div>
       </section>
 
-      
+      <section className={style.news}>
+        <div className="container">
+          <h2 className={style.news_title}>
+            Better information, Better health
+          </h2>
+          <p className={style.news_desc}>News</p>
+          <div className={style.news_wrapper}>
+            <div className={style.news_card}>
+              <img style={{ display: "inline" }} src={news_card} alt="" />
+              <div className={style.news_card_content}>
+                <p className={style.news_card_date}>
+                  Monday 05, September 2021 | By Author
+                </p>
+                <p className={style.about}>
+                  This Article’s Title goes Here, but not too long.
+                </p>
+                <div className={style.icons}>
+                  <div className={style.a}>
+                    <img src={eye_icon} alt="" />
+                    <span className={style.num}>68</span>
+                  </div>
+                  <div className={style.a}>
+                    <img src={heart_icon} alt="" />
+                    <span className={style.num}>86</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={style.news_card}>
+              <img style={{ display: "inline" }} src={news_card} alt="" />
+              <div className={style.news_card_content}>
+                <p className={style.news_card_date}>
+                  Monday 05, September 2021 | By Author
+                </p>
+                <p className={style.about}>
+                  This Article’s Title goes Here, but not too long.
+                </p>
+                <div className={style.icons}>
+                  <div className={style.a}>
+                    <img src={eye_icon} alt="" />
+                    <span className={style.num}>68</span>
+                  </div>
+                  <div className={style.a}>
+                    <img src={heart_icon} alt="" />
+                    <span className={style.num}>86</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={style.news_card}>
+              <img style={{ display: "inline" }} src={news_card} alt="" />
+              <div className={style.news_card_content}>
+                <p className={style.news_card_date}>
+                  Monday 05, September 2021 | By Author
+                </p>
+                <p className={style.about}>
+                  This Article’s Title goes Here, but not too long.
+                </p>
+                <div className={style.icons}>
+                  <div className={style.a}>
+                    <img src={eye_icon} alt="" />
+                    <span className={style.num}>68</span>
+                  </div>
+                  <div className={style.a}>
+                    <img src={heart_icon} alt="" />
+                    <span className={style.num}>86</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className={style.news_card}>
+              <img style={{ display: "inline" }} src={news_card} alt="" />
+              <div className={style.news_card_content}>
+                <p className={style.news_card_date}>
+                  Monday 05, September 2021 | By Author
+                </p>
+                <p className={style.about}>
+                  This Article’s Title goes Here, but not too long.
+                </p>
+                <div className={style.icons}>
+                  <div className={style.a}>
+                    <img src={eye_icon} alt="" />
+                    <span className={style.num}>68</span>
+                  </div>
+                  <div className={style.a}>
+                    <img src={heart_icon} alt="" />
+                    <span className={style.num}>86</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
