@@ -1,14 +1,14 @@
 .news_info__main {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    row-gap: 25px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  row-gap: 25px;
 }
 
-
 .news_main__card {
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  max-width: 486px;
 }
 
 .info_des__text {
