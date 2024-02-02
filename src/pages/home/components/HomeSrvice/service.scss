@@ -1,0 +1,130 @@
+.service {
+    margin-top: 64px;
+}
+
+.service__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service__bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.service__picture {
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #8f8f91;
+    background: #FCFEFE;
+
+}
+
+.service__info {
+    padding: 24px;
+}
+
+.service__txt {
+    color: #212124;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 8px;
+}
+
+.service__info--active {
+    background: var(--Primary, #1F2B6C);
+    width: 100%;
+    padding: 24px;
+}
+
+.service__txt--active {
+    color: #BFD2F8;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.service__view {
+    color: #BFD2F8;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0px 0px 5px 5px;
+    background: var(--Primary, #1F2B6C);
+    width: 100%;
+    padding: 12px 0;
+}
+
+.passion__main {
+    max-width: 580px;
+    width: 100%;
+}
+
+.passion__main__title {
+    color: #000;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.passion__main__left {
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+}
+
+.passion__main__right {
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+}
+
+.passion__main__left__info {
+    display: flex;
+    align-items: center;
+
+}
+
+.passion__main__left__info__txt {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-left: 10px;
+}
+
+.poison__beetwen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rectangel {
+    width: 16px;
+    height: 16px;
+}
+
+.poison__txt {
+    color: #212124;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 32px;
+}
+
+.picture {
+    max-width: 325px;
+    width: 100%;
+}

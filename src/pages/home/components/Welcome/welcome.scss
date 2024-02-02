@@ -1,0 +1,64 @@
+.welcome {
+    margin-top: 100px;
+}
+
+.welcome__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome__top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome__title {
+    color: #159EEC;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+}
+
+.welcome__greate {
+    color: #1F2B6C;
+    text-align: center;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.welcome__txt {
+    color: #212124;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 658px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.welcome__btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.welcome__btn {
+    color: #159EEC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome__bottom{
+    margin-top: 61px;
+}

@@ -4,6 +4,7 @@ import { Contact } from '../pages/contact'
 import { Doctor } from '../pages/doctors'
 import { News } from '../pages/news'
 import { Service } from '../pages/service'
+import { Appointment } from "../pages/Appointmnet";
 
 
 export const main_pages = [
@@ -29,5 +30,9 @@ export const main_pages = [
   {
     component: <Contact />,
     path: "contact",
+  },
+  {
+    component: <Appointment />,
+    path: "appointment",
   },
 ];

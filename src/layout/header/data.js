@@ -23,4 +23,8 @@ export const links = [
     name: "Contact",
     path: "/contact",
   },
+  {
+    name: "Appointment",
+    path: "/appointment",
+  },
 ];

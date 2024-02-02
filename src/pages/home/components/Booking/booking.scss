@@ -1,0 +1,96 @@
+.booking {
+    margin-top: 64px;
+    background: url(../../../../assets/img/booking.png)no-repeat center /cover;
+    min-height: 573px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.booking__left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.booking__title {
+    color: #159EEC;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.booking__txt {
+    color: #212124;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 16px;
+    max-width: 407px;
+    width: 100%;
+}
+
+.booking__right {
+    border-radius: 5px;
+    background: #1F2B6C;
+}
+
+.grander__option {
+    width: 245px;
+    height: 50px;
+    background: transparent;
+    color: #FCFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-left: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.bg {
+    background: #1F2B6C;
+}
+
+.grander__option::placeholder {
+    color: white;
+}
+
+.massage__info {
+    height: 190px;
+    max-width: 491px;
+}
+
+.massage {
+    color: #FCFEFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.send__btns {
+    border-radius: 0px 0px 5px 5px;
+    background: var(--Accent, #BFD2F8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    color: #1F2B6C;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+}
