@@ -39,6 +39,7 @@ export const HomeContact = () => {
                             <p className='homecontact__tel tx'>Mon-Sat 09:00-20:00</p>
                             <p className='homecontact__tel tx'>Sunday Emergency only</p>
                         </div>
+                        axax
                     </div>
                 </div>
             </div>
