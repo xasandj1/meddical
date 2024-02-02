@@ -1,0 +1,61 @@
+.info_container {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.info_container_content {
+  max-width: 564px;
+}
+.content_title {
+  color: #159eec;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 16%;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.content_title2 {
+  color: rgb(31, 43, 108);
+  font-family: Yeseva One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  margin-bottom: 24px;
+}
+.cantinaer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.content_box_text {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 16px;
+  padding-left: 26px;
+  position: relative;
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #159eec;
+    top: 5px;
+    left: 0;
+  }
+}
+.content_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 16px;
+}
+.info_container_content {
+  padding-left: 20px;
+}

@@ -1,0 +1,237 @@
+.section {
+  background-image: url("../../assets/contactImg/hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  font-family: Work Sans;
+  background-size: cover;
+}
+.hero_content {
+  padding-top: 76px;
+  color: rgb(31, 43, 108);
+}
+
+.hero_title {
+  font-size: 48px;
+}
+
+.map_section {
+  padding-top: 59px;
+  padding-bottom: 64px;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 128px;
+}
+.form {
+  background: rgb(31, 43, 108);
+  border-radius: 10px;
+  margin-top: 32px;
+  max-width: 500px;
+  width: 100%;
+  height: 385px;
+  position: relative;
+}
+.left_title {
+  color: rgb(21, 158, 236);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 16%;
+  text-align: left;
+  text-transform: uppercase;
+  position: absolute;
+}
+.left {
+  width: 486px;
+}
+.left_desc {
+  color: rgb(31, 43, 108);
+  font-family: Yeseva One;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 0%;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 20px;
+}
+.subject,
+.message {
+  width: 100%;
+}
+.message {
+  height: 240px;
+  resize: none;
+  background: transparent;
+  outline: none;
+  color: rgb(152, 152, 152);
+  padding: 14px;
+  border: none;
+}
+.grow {
+  width: 50%;
+}
+
+.left_btn {
+  border-radius: 0px 0px 5px 5px;
+  background: rgb(191, 210, 248);
+  color: rgb(31, 43, 108);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#transparent {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 14px;
+  border-bottom: 1px solid white;
+}
+#transparent::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+}
+.message::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+}
+.wrapper_form {
+  width: 992px;
+  height: 486px;
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 5px;
+  background: rgb(191, 210, 248);
+  width: 233px;
+  height: 233px;
+  padding: 50px 18px 50px 18px;
+}
+
+.card_title {
+  color: rgb(31, 43, 108);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 19px;
+  margin-bottom: 8px;
+}
+.card_desc {
+  color: rgb(31, 43, 108);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news_title {
+  color: rgb(21, 158, 236);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 16%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.news_desc {
+  color: rgb(31, 43, 108);
+  font-family: Yeseva One;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.news_wrapper {
+  width: 992px;
+  height: 328px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+.news_card {
+  width: 486px;
+  height: 154px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(252, 254, 254);
+}
+.news_card_content {
+  padding: 20px;
+}
+.news_card_date {
+  color: rgb(21, 158, 236);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about {
+  color: rgb(33, 33, 36);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 8px;
+}
+.num {
+  color: rgb(33, 33, 36);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 4px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+.a {
+  display: flex;
+  align-items: center;
+}
