@@ -1,0 +1,40 @@
+.homehero {
+    background: url(../../../../assets/img/homeHero.png) no-repeat center / cover;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.homehero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.homehero__span {
+    color: #159EEC;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.88px;
+    text-transform: uppercase;
+}
+
+.homehero__title {
+    color: var(--Primary, #1F2B6C);
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 520px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.homehero__btn {
+    padding: 13px 35px;
+    color: #1F2B6C;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: #BFD2F8;
+    margin-top: 32px;
+}

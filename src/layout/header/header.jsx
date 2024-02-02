@@ -48,10 +48,10 @@ export const Header = () => {
               </Link>
             ))}
           </ul>
-          <div className="header__btns">
+          <form className="header__btns">
             <button className="header__btn"><SearchIcon /></button>
             <button className="header__search">Search</button>
-          </div>
+          </form>
         </div>
       </section>
     </>
