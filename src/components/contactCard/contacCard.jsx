@@ -7,9 +7,11 @@ export const ContacCard = () => {
     <div className="container">
       <div className={ContactCardStyle.contact_card__main}>
         {contactCardData.map((item) => (
-          <div className={ContactCardStyle.concard_main}> 
+          <div className={ContactCardStyle.concard_main}>
             <img src={item.icon} alt="icon" />
-            <h2 className={ContactCardStyle.concard_main__title}>{item.title}</h2>
+            <h2 className={ContactCardStyle.concard_main__title}>
+              {item.title}
+            </h2>
             <p className={ContactCardStyle.concard_main__text1}>{item.text1}</p>
             <p className={ContactCardStyle.concard_main__text2}>{item.text2}</p>
           </div>
